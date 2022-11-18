@@ -15,19 +15,19 @@ const Footer = () => (
             <h1 className="app__footer-headtext">
               Contact
             </h1>
-            <p className="app__opensans">
+            <p className="p__opensans">
               Lorem ipsum dolor sit amet.
             </p>
-            <p className="app__opensans">
+            <p className="p__opensans">
               +8801600000000
             </p>
-            <p className="app__opensans">
+            <p className="p__opensans">
               +8801700000000
             </p>
         </div>
         <div className="app__footer-links_logo">
           <img src={images.gericht} alt="footer_logo" />
-          <p className='app__opensans'>The best way to find yourself is to lose yourself in the service of others</p>
+          <p className='p__opensans'>The best way to find yourself is to lose yourself in the service of others</p>
           <img src={images.spoon} alt="spoon" className='spoon__img' style={{marginTop:15}} />
           <div className="app__footer-links_icons">
             <FiFacebook />
@@ -39,13 +39,13 @@ const Footer = () => (
         <h1 className="app__footer-headtext">
               Working Hours
             </h1>
-            <p className="app__opensans">
+            <p className="p__opensans">
               Lorem ipsum dolor sit amet.
             </p>
-            <p className="app__opensans">
+            <p className="p__opensans">
               +8801600000000
             </p>
-            <p className="app__opensans">
+            <p className="p__opensans">
               +8801700000000
             </p>
         </div>

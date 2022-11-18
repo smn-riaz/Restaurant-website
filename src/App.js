@@ -6,12 +6,12 @@ import './App.css';
 import PreLoader from './components/PreLoader/PreLoader';
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 4000);
-  }, []);
+  const [loading, setLoading] = useState(false);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 4000);
+  // }, []);
 return(
   <div>
    {

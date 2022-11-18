@@ -15,4 +15,5 @@
 
 .app__footerOverlay-img {
     height: 75%;
+    background: var(--color-black);
 }
